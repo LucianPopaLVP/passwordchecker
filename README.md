@@ -3,9 +3,14 @@
 Safely check locally if you password has ever been breached or pwned/hacked. Thi script is simply getting you password, keeping it locally, it uses SHA1 encripting algorithm to safely than compare it to the passwords online and find out fo you if you password is safe to use or you should change it.
 
 How to use it:
-Open a terminal in the location you have the script, or copy the path into your teminal and run the command:
 
-$yourPATH/Foder/etc: python checkmypass.py PASSWORD
+First, you need to have Pyhton installed on your computer. If you do not have it just go on the official website and download it:
+
+https://www.python.org/
+
+Open a terminal in the location you have the script 'checkmypass.py', or copy the path into your teminal and run the command:
+
+$yourPATH/Foder/etc:(run what is what after this):   python checkmypass.py PASSWORD
 
 PASSWORD = your password you want to check if it safe to use or not.
 
