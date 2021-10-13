@@ -10,7 +10,7 @@ https://www.python.org/
 
 Open a terminal in the location you have the script 'checkmypass.py', or copy the path into your teminal and run the command:
 
-$yourPATH/Foder/etc:(run what is what after this):   python checkmypass.py PASSWORD
+$yourPATH/Foder/etc:(run what is what after this):  python checkmypass.py PASSWORD
 
 PASSWORD = your password you want to check if it safe to use or not.
 

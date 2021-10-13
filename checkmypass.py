@@ -3,7 +3,6 @@ import hashlib
 import sys
 
 
-
 def request_api_data(query_char):
     url = 'https://api.pwnedpasswords.com/range/'+ query_char
     res = requests.get(url)
@@ -28,9 +27,9 @@ def main(args):
     for password in args:
         count = pwned_api_check(password)
         if count:
-            print(f'{password} was fount {count} times....you should probably not use this password!')
+            print(f'{password} was found {count} times....you should probably not use this password! It has been pwned/leaked in data base breaches!')
         else:
-            print(f'{password} was NOT found. This is a good password to use!')
+            print(f'{password} was NOT found. This is a good password to use and you can use it with confidence!')
     return 'Done!'
 
 if __name__ == '__main__':
