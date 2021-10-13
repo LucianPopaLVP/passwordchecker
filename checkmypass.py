@@ -1,11 +1,8 @@
 import requests
 import hashlib
 import sys
-import getpass
 
-def password():
-    password = getpass.getpass('What is the password you want to check: ')
-    get_pwd(getpass)
+
 
 def request_api_data(query_char):
     url = 'https://api.pwnedpasswords.com/range/'+ query_char
